@@ -1,0 +1,20 @@
+GET http://localhost:3000/posts
+Authorization: Bearer ab16a1c29b02a44ddf11452804b0b2ad7cd4c389298308e6dcdf73f90b8e070614e190891e13542daf596db089d65f994955a9fdd17bfcc4181199a568986c60
+###
+
+DELETE http://localhost:4000/logout
+Content-type: application/json
+
+###
+POST http://localhost:4000/token
+Content-Type: application/json  {
+    "token": 
+}
+
+###
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username": "Kyle"
+}
